@@ -1,0 +1,44 @@
+{
+  "name": "snappy-ui",
+  "version": "1.0.0",
+  "description": "Snappy UI, A sleek and efficient component library packed with functional, reusable components like chat windows, debounced search items, and more. Built to make your UI snappier and your development faster!",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PratikChakraborty10/snappy-ui.git"
+  },
+  "keywords": [
+    "UI",
+    "Library"
+  ],
+  "author": "Pratik Chakraborty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PratikChakraborty10/snappy-ui/issues"
+  },
+  "homepage": "https://github.com/PratikChakraborty10/snappy-ui#readme",
+  "peerDependencies": {
+    "lucide-react": "^0.469.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.2",
+    "rollup": "^4.29.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  }
+}
